@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tap House Pub and Patio in O'Fallon, Missouri — craft brews, American eats, burgers, wings, patio seating and darts." />
+  <title>Tap House Pub & Patio | O'Fallon, MO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">
+        <span class="brand-mark">TH</span>
+        <span><strong>Tap House</strong><small>Pub & Patio</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="tel:+16364392390">Call Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">O'FALLON, MISSOURI</p>
+        <h1>Good Food.<br><span>Cold Drinks.</span><br>Great Company.</h1>
+        <p class="hero-copy">A neighborhood pub serving hearty American favorites, craft brews and a relaxed patio atmosphere.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">Explore the Menu</a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=9015+Veterans+Memorial+Pkwy+O%27Fallon+MO+63366" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+        <div class="hero-badges">
+          <span>🍺 Craft Brews</span>
+          <span>🍔 American Eats</span>
+          <span>☀️ Patio</span>
+          <span>🎯 Darts</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow dark">WELCOME TO TAP HOUSE</p>
+          <h2>Your neighborhood spot for food, drinks & good times.</h2>
+        </div>
+        <div>
+          <p>Tap House Pub & Patio brings together the things that make a great neighborhood hangout: satisfying American food, a wide selection of beverages, a casual atmosphere and a patio made for relaxing when the weather cooperates.</p>
+          <p class="muted">Located on Veterans Memorial Parkway in O'Fallon, Missouri.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-strip">
+      <div class="container feature-grid">
+        <div><span>🍔</span><div><strong>Signature Burgers</strong><small>Loaded, creative & generous</small></div></div>
+        <div><span>🔥</span><div><strong>Wings & Bar Favorites</strong><small>Perfect with a cold drink</small></div></div>
+        <div><span>🍺</span><div><strong>Beer & Drinks</strong><small>A casual place to unwind</small></div></div>
+        <div><span>☀️</span><div><strong>Patio & Games</strong><small>Outdoor seating & darts</small></div></div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow dark">FROM THE KITCHEN</p>
+          <h2>Menu favorites</h2>
+          <p>Some of the dishes guests come back for again and again.</p>
+        </div>
+
+        <div class="menu-tabs">
+          <button class="tab active" data-filter="all">All</button>
+          <button class="tab" data-filter="burgers">Burgers</button>
+          <button class="tab" data-filter="wings">Wings & Starters</button>
+          <button class="tab" data-filter="sandwiches">Sandwiches</button>
+          <button class="tab" data-filter="entrees">Entrées</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card" data-category="burgers">
+            <div class="menu-card-top"><span class="menu-icon">☕</span><span class="tag">Favorite</span></div>
+            <h3>Java Burger</h3>
+            <p>Coffee-rubbed burger with smoked Gouda, bacon and a hint of BBQ.</p>
+          </article>
+          <article class="menu-card" data-category="burgers">
+            <div class="menu-card-top"><span class="menu-icon">🧄</span><span class="tag">House Favorite</span></div>
+            <h3>Garlic Capped Burger</h3>
+            <p>Garlic cream cheese, sautéed mushrooms and provolone.</p>
+          </article>
+          <article class="menu-card" data-category="burgers">
+            <div class="menu-card-top"><span class="menu-icon">🧀</span></div>
+            <h3>Black & Bleu</h3>
+            <p>Cajun-style burger finished with bleu cheese.</p>
+          </article>
+          <article class="menu-card" data-category="burgers">
+            <div class="menu-card-top"><span class="menu-icon">🌶️</span></div>
+            <h3>Todd's Burger</h3>
+            <p>Topped with Todd's chili, cheddar and onion.</p>
+          </article>
+          <article class="menu-card" data-category="wings">
+            <div class="menu-card-top"><span class="menu-icon">🍗</span><span class="tag">Popular</span></div>
+            <h3>Buffalo Wings</h3>
+            <p>Lightly breaded wings tossed in buffalo sauce.</p>
+          </article>
+          <article class="menu-card" data-category="wings">
+            <div class="menu-card-top"><span class="menu-icon">🔥</span></div>
+            <h3>Pig Wings</h3>
+            <p>Hearty pork shanks made for a satisfying pub meal.</p>
+          </article>
+          <article class="menu-card" data-category="wings">
+            <div class="menu-card-top"><span class="menu-icon">🧀</span></div>
+            <h3>Spinach Artichoke Dip</h3>
+            <p>A warm, shareable starter for the table.</p>
+          </article>
+          <article class="menu-card" data-category="wings">
+            <div class="menu-card-top"><span class="menu-icon">🧅</span></div>
+            <h3>Onion Rings & Nachos</h3>
+            <p>Classic bar snacks for sharing with friends.</p>
+          </article>
+          <article class="menu-card" data-category="sandwiches">
+            <div class="menu-card-top"><span class="menu-icon">🥪</span><span class="tag">Guest Favorite</span></div>
+            <h3>Frisco Melt</h3>
+            <p>A classic melt that regularly earns praise from guests.</p>
+          </article>
+          <article class="menu-card" data-category="sandwiches">
+            <div class="menu-card-top"><span class="menu-icon">🥓</span></div>
+            <h3>BLT</h3>
+            <p>A pub classic with a loyal following.</p>
+          </article>
+          <article class="menu-card" data-category="sandwiches">
+            <div class="menu-card-top"><span class="menu-icon">🍗</span></div>
+            <h3>Chicken Club</h3>
+            <p>A hearty chicken sandwich for a satisfying lunch or dinner.</p>
+          </article>
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-top"><span class="menu-icon">🐟</span></div>
+            <h3>Fish & Chips</h3>
+            <p>Beer-battered fish served pub-style.</p>
+          </article>
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-top"><span class="menu-icon">🥩</span></div>
+            <h3>Ribeye</h3>
+            <p>A classic steak option for a bigger appetite.</p>
+          </article>
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-top"><span class="menu-icon">🍝</span></div>
+            <h3>Pasta Dishes</h3>
+            <p>Comfort-food favorites served in a casual pub setting.</p>
+          </article>
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-top"><span class="menu-icon">🍖</span></div>
+            <h3>Meatloaf</h3>
+            <p>Classic comfort food with a generous pub-style portion.</p>
+          </article>
+        </div>
+        <div class="menu-note">
+          <strong>Menu note:</strong> Items and availability can change. Please contact Tap House for the current menu and pricing.
+          <a href="http://www.taphousepub.com/menu" target="_blank" rel="noopener">View restaurant menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container quote-wrap">
+        <div class="quote-mark">“</div>
+        <blockquote>Good food, good price, good drinks and a friendly atmosphere.</blockquote>
+        <p>— Tap House guests</p>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow dark">THE TAP HOUSE EXPERIENCE</p>
+          <h2>Come for the food. Stay for the vibe.</h2>
+        </div>
+        <div class="gallery-grid">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmIN2_9FuaeAdjkzLks3Fnxnz607stt3Rhrwqv3Xwp4jrs1AP3RnmjfCFk5rnHea2TbelZK3UFww1NSXXrgOnR7S-OuqjvDQ0QqacmSdXZ1J_YMMqjzKAx42c-0IK_k_zM8u6Kk=w408-h408-k-no" alt="Tap House Pub and Patio exterior" />
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpfSea6xWZoffyjUd2CFR8iBZqAoSUUbB9f37L8ePlshgMCp3rTuY0zDI1BBFyxm8AZc83BtqM-NUJkhT2O3knWVJI6KGmsXFDem2OISbQlavPdmUt2cBYv7nsF2AI_uLgtpQ=w156-h114-p-k-no" alt="Tap House Pub and Patio food" />
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmp8gvKgJ5YeVJxBJIWgxgwBnpINI0_7ULljfOvb8bVuMq5derg0OsS_NSznEAGr4WDWxQPDlsxNQQzhcwPSH12dT4tEp7cKJAeHf00lFm4l3WjRFZ0loAz0nd0alWZLxuRV6MZFg=w876-h298-k-no" alt="Tap House food and drinks" />
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn_0Is8ZVq_Aztieh9JMfFsUw82B91sH7HClNUaEnxqwcyJkxQOVjfWw8ec4BS6_DxUnjnAUsMFONvAIOB5MZDMhg2jVNPgFdFDKGpZX97MGCfSyzn6hQcox0FnTUGaOLPCxJOn=w224-h298-k-no" alt="Tap House Pub and Patio atmosphere" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">VISIT US</p>
+          <h2>Let's eat, drink & hang out.</h2>
+          <p class="contact-copy">Stop by Tap House Pub & Patio in O'Fallon for burgers, wings, drinks and a relaxed neighborhood atmosphere.</p>
+          <div class="contact-list">
+            <a href="https://www.google.com/maps/search/?api=1&query=9015+Veterans+Memorial+Pkwy+O%27Fallon+MO+63366" target="_blank" rel="noopener">
+              <span>📍</span><div><strong>Address</strong><br>9015 Veterans Memorial Pkwy<br>O'Fallon, MO 63366</div>
+            </a>
+            <a href="tel:+16364392390"><span>📞</span><div><strong>Phone</strong><br>(636) 439-2390</div></a>
+            <a href="http://www.taphousepub.com/menu" target="_blank" rel="noopener"><span>🍽️</span><div><strong>Online Menu</strong><br>TapHousePub.com</div></a>
+            <a href="https://www.facebook.com/TapHousePub/" target="_blank" rel="noopener"><span>f</span><div><strong>Facebook</strong><br>@TapHousePub</div></a>
+          </div>
+        </div>
+        <div class="hours-card">
+          <p class="eyebrow dark">HOURS</p>
+          <h3>Plan your visit</h3>
+          <div class="hours-row"><span>Monday</span><strong>11 AM – 10 PM</strong></div>
+          <div class="hours-row"><span>Tuesday</span><strong>11 AM – 10 PM</strong></div>
+          <div class="hours-row"><span>Wednesday</span><strong>11 AM – 11 PM</strong></div>
+          <div class="hours-row"><span>Thursday</span><strong>11 AM – 11 PM</strong></div>
+          <div class="hours-row"><span>Friday</span><strong>11 AM – 11 PM</strong></div>
+          <div class="hours-row"><span>Saturday</span><strong>11 AM – 11 PM</strong></div>
+          <div class="hours-row"><span>Sunday</span><strong>12 PM – 6 PM</strong></div>
+          <p class="hours-note">Hours can change for holidays or special events. Call ahead for the latest schedule.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="brand footer-brand"><span class="brand-mark">TH</span><span><strong>Tap House</strong><small>Pub & Patio</small></span></div>
+      <p>9015 Veterans Memorial Pkwy · O'Fallon, MO 63366</p>
+      <p>© <span id="year"></span> Tap House Pub & Patio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
